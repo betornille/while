@@ -1,0 +1,15 @@
+//Ciclo while
+#include<stdio.h>
+int main(){
+    int SUMPAGOS=0, i, pago=1;
+   
+    while(pago!=0){
+        printf("Ingrese la cantidad %i a pagar: ", i+1);
+        scanf("%d", &pago);
+        SUMPAGOS+=pago;
+        i+=1;
+    }
+    printf("La cantidad total de pago es: %d\n", SUMPAGOS);
+    printf("La cantidad total de ventas: %d ", i-1);
+    return 0;
+}
