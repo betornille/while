@@ -1,0 +1,17 @@
+//do-while
+#include<stdio.h>
+int main(){
+  int i=1, N, SUMA=0;
+  
+  do{
+      printf("Da un número entero positivo: ");
+      scanf("%d", &N);  
+      
+  }while(N<=0);
+  
+  while(i<=N){
+      SUMA+=i;
+      i++;
+  }
+  printf("La suma total hasta su número entero es: %d", SUMA);
+}
